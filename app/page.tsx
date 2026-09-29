@@ -69,7 +69,6 @@ export default function Home() {
         <OfferSection></OfferSection>
         <FrequentlyAskedQuestions />
       </div>
-      <Footer />
     </>
 
   );

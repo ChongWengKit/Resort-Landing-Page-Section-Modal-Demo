@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import TopBar from "./components/ui/TopBar";
-
+import Footer from "./components/ui/Footer";
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
@@ -26,7 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         <TopBar />
-        {children}</body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
