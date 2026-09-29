@@ -4,7 +4,7 @@ import OfferSection from "./components/builder/OfferSection";
 import FrequentlyAskedQuestions from "./components/ui/FrequentlyAskedQuestions";
 import Footer from "./components/ui/Footer";
 import "../app/lib/builder";
-
+export const dynamic = "force-dynamic";
 const Attractions = [
     {
         title: "Where the Island Meets the Sea",

@@ -9,8 +9,7 @@ export default async function OfferSection() {
             },
             // Set prerender to false to return JSON instead of HTML
             options: {
-            cacheSeconds: 0,
-            staleCacheSeconds: 0,
+
         },
         prerender: false,
         })
