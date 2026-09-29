@@ -28,6 +28,7 @@ export default function AttractionCard({ title, description, imageTitle, imageUr
                                     src={imageUrl}
                                     alt={imageTitle}
                                     fill
+                                    sizes="(min-width: 1024px) 500px, 300px"
                                     className="object-cover"
                                 />
                             </div>
@@ -84,6 +85,7 @@ export default function AttractionCard({ title, description, imageTitle, imageUr
                                         src={imageUrl}
                                         alt={imageTitle}
                                         fill
+                                        sizes="(min-width: 1024px) 500px, 300px"
                                         className="object-cover"
                                     />
                                 </div>
