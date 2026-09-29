@@ -32,7 +32,7 @@ export default function AttractionCard({ title, description, imageTitle, imageUr
                                     className="object-cover"
                                 />
                             </div>
-                            <div className="flex flex-col items-center gap-8 justify-center relative">
+                            <div className="flex flex-col flex-1 items-center gap-8 justify-center relative">
                                 <div className="absolute top-0 right-0 w-[12.5%] h-[12.5%] border-t border-r border-gold" />
                                 <div className="block md:hidden absolute bottom-0 left-0 w-[12.5%] h-[12.5%] border-b border-l border-gold" />
                                 <div className="w-3/5 border-t text-center md:text-right">
@@ -64,7 +64,7 @@ export default function AttractionCard({ title, description, imageTitle, imageUr
                                 <div className="absolute bottom-0 left-1/2 md:right-0 md:left-auto h-[2px] w-1/8 bg-gold" />
 
                             </div>
-                            <div className="flex flex-col flex-col-reverse md:flex-row gap-8 m-8">
+                            <div className="flex flex-col flex-1 flex-col-reverse md:flex-row gap-8 m-8">
                                 <div className="flex flex-col items-center gap-8 justify-center relative">
                                     <div className="absolute top-0 left-0 w-[12.5%] h-[12.5%] border-t border-l border-gold" />
                                     <div className="block md:hidden absolute bottom-0 right-0 w-[12.5%] h-[12.5%] border-b border-r border-gold" />
